@@ -1,1 +1,6 @@
-document.title = "Hi from JS" //JS code 가 HTML 코드 이김
+const title = document.getElementById("title");
+
+title.innerText ="Got you!";
+
+console.log(title.id);
+console.log(title.className);
