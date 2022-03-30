@@ -1,0 +1,1 @@
+document.title = "Hi from JS" //JS code 가 HTML 코드 이김
