@@ -33,7 +33,7 @@ div {
   left: 50%;
   top: 25%;
   transform: translate(-50%, -50%);
-  color: rgb(135, 56, 245);
+  color: firebrick;
   font-size: 150px;
   font-weight: 800px;
   display: flex;
@@ -53,13 +53,13 @@ div {
   width: 300px;
   font-size: 30px;
   background-color: transparent;
-  border: 0px solid rgb(135, 56, 245);
-  border-bottom: 3px solid rgb(135, 56, 245);
-  color: rgb(135, 56, 245);
+  border: 0px solid firebrick;
+  border-bottom: 3px solid firebrick;
+  color: firebrick;
 }
 
 #login-form input::placeholder {
-  color: rgb(135, 56, 245);
+  color: firebrick;
 }
 
 #login-form button {
@@ -67,11 +67,76 @@ div {
   width: 100px;
   font-size: 30px;
   background-color: transparent;
-  border: 0px solid rgb(135, 56, 245);
-  border-bottom: 3px solid rgb(135, 56, 245);
-  color: rgb(135, 56, 245);
+  border: 0px solid firebrick;
+  border-bottom: 3px solid firebrick;
+  color: firebrick;
 }
 
 ul {
   top: 60%;
+}
+
+#greeting {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 500px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 0px solid firebrick;
+  border-bottom: 3px solid firebrick;
+  color: firebrick;
+  text-align: center;
+}
+
+#todo-form input {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 500px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 0px solid firebrick;
+  border-bottom: 3px solid firebrick;
+  text-align: center;
+  color: firebrick;
+}
+
+#todo-form input::placeholder {
+  color: firebrick;
+}
+
+#todo-list {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 500px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 0px solid firebrick;
+  text-align: left;
+  color: firebrick;
+}
+
+#quote {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  color: firebrick;
+}
+
+#weather {
+  position: absolute;
+  left: 93%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  color: firebrick;
+  font-size: 20px;
 }
